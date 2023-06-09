@@ -30,7 +30,7 @@ for subject in subject_list:
 avg_score=score/len(subject_list)
 
 # store grade
-result=get_gpa(51)
+result=get_gpa(avg_score=avg_score))
 
 print(f'Your grade is:{result}')
 
